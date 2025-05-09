@@ -1,0 +1,26 @@
+.topnav {
+  position: relative;
+  overflow: hidden;
+}
+
+.topnav-left a {
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: solid 2px rgb(4, 4, 53);
+  background-color: rgb(4, 4, 53);
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.topnav-left img {
+  float: left; 
+}
+
+.topnav-right {
+  text-align: right;
+}
