@@ -1,15 +1,19 @@
+/*This is a navigation styling */
 .topnav {
-  position: relative;
-  overflow: hidden;
+  border: solid 2px rgb(164, 164, 170);
+  border-radius: 8px;
+  padding: 5px;
+  background-color: rgb(4, 4, 53);
+  height: fit-content;
 }
 
-.topnav-left a {
-  color: whitesmoke;
-  text-align: center;
-  padding: 14px 16px;
+.topnav-left,
+h1,
+a {
+  text-align: left;
+  padding: 2px 0px;
   text-decoration: none;
-  border: solid 2px rgb(4, 4, 53);
-  background-color: rgb(4, 4, 53);
+  color: whitesmoke;
 }
 
 img {
@@ -18,9 +22,18 @@ img {
 }
 
 .topnav-left img {
-  float: left; 
+  float: left;
 }
 
 .topnav-right {
   text-align: right;
+}
+
+.topnav-right a {
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  border: solid 2px rgb(15, 160, 23);
+  border-radius: 41px;
+  background-color: rgb(15, 160, 23);
+  padding: 10px;
 }
